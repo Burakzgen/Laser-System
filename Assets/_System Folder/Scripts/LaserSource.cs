@@ -10,7 +10,7 @@ public class LaserSource : MonoBehaviour
     private void Start()
     {
         _lineRenderer = gameObject.GetComponent<LineRenderer>();
-        _lineRenderer.enabled = false;
+        //_lineRenderer.enabled = false;
     }
     private void Update()
     {
